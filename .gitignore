@@ -47,3 +47,4 @@ nbdist/
 
 ######################################################################
 application-local.yml
+application-prod.yml
