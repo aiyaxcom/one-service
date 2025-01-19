@@ -72,6 +72,9 @@ spring:
     restart:
       # 热部署开关
       enabled: true
+  config:
+    import: application-druid.yml
+
 
 # MyBatis
 mybatis:
