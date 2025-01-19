@@ -242,6 +242,19 @@
     </modules>
     <packaging>pom</packaging>
 
+    <profiles>
+        <profile>
+            <id>prod</id>
+            <properties>
+                <spring.profiles.active>prod</spring.profiles.active>
+            </properties>
+            <build>
+                <plugins>
+                    <!-- Define any plugins or configurations specific to the prod profile here -->
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
 
     <dependencies>
 
