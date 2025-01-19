@@ -11,4 +11,4 @@ COPY ruoyi-admin/target/ruoyi-admin.jar /app
 
 EXPOSE 80
 
-CMD ["java", "-jar", "ruoyi-admin.jar"]
+CMD ["java", "-jar", "ruoyi-admin.jar", "--spring.profiles.active=prod"]
